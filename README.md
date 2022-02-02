@@ -52,9 +52,9 @@ stay within the linear response region of the detector
    This holds for any data collection but not for the
    fine-slice experiment where we are only interested in
    modelling the peak flux
- - Exposure time > Duty cycle
-   > 1.00 seconds  > 99.91 %
-   > 3.50 seconds  > 99.81 %
-   > 4.10 seconds  > 99.05 %
-   > 5.05 seconds  > 98.10 %
-   > 6.01 seconds  > 90.50 %
+ - Exposure time [s] > Duty cycle
+   - 1.00 -> 99.91 %
+   - 3.50 -> 99.81 %
+   - 4.10 -> 99.05 %
+   - 5.05 -> 98.10 %
+   - 6.01 -> 90.50 %
