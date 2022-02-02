@@ -1,7 +1,6 @@
 # SP8Info
 
 SPring-8 Experiment Info
-
 A tool to optimize the primary beam attenuation factor to
 stay within the linear response region of the detector
 
