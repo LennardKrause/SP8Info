@@ -4,16 +4,16 @@ SPring-8 Experiment Info
 A tool to optimize the primary beam attenuation factor to
 stay within the linear response region of the detector
 
-Usage:
+### Usage:
  - Perform a 180 degree scan
    Scan width: 0.1 degrees
    Exposure time: 0.1 seconds
  - Run the program PEInfo.py again
  - Give the image path as argument (-f path/to/images)
 
-PROGRAM OUTPUT
+## PROGRAM OUTPUT
 
-Experiment Info (weak scatterers):
+### Experiment Info (weak scatterers):
  - Finds maximum intensity of given images
  - Crudely estimates the maximum flux
  - Simply extrapolates an exposure time
@@ -24,7 +24,7 @@ Experiment Info (weak scatterers):
    estimation of both the flux and the attenuation factor
  - A peak profile should not exceed 3.0 degrees
 
-Fine-Slice Info (strong scatterers):
+### Fine-Slice Info (strong scatterers):
  - Fits the fine-sliced reflection profile assuming a
    Gaussian model to estimate the peak flux
  - Better estimate of maximum flux
@@ -32,15 +32,15 @@ Fine-Slice Info (strong scatterers):
    Otherwise try to increase profiling queue (-q 25)
  - Recommended for *strongly* scattering samples
  
-The program will suggest parameters:
+### The program will suggest parameters:
  - Attenuator:    Name of the attenuator to use
  - Transmission:  Resulting beam intensity [%]
  - Utilization:   Est. flux relative to linear region [%]
  - Exposure time: Estimated exposure time [seconds/image]
 
-GENERAL INFORMATION
+## GENERAL INFORMATION
 
-PILATUS3 X 1M CdTe:
+### PILATUS3 X 1M CdTe:
  - Image bit depth:    32 bit
  - Readout bit depth:  20 bit
  - Overflow state:     1,048,575
@@ -53,8 +53,8 @@ PILATUS3 X 1M CdTe:
    fine-slice experiment where we are only interested in
    modelling the peak flux
  - Exposure time > Duty cycle
-   1.00 seconds  > 99.91 %
-   0.50 seconds  > 99.81 %
-   0.10 seconds  > 99.05 %
-   0.05 seconds  > 98.10 %
-   0.01 seconds  > 90.50 %
+   > 1.00 seconds  > 99.91 %
+   > 3.50 seconds  > 99.81 %
+   > 4.10 seconds  > 99.05 %
+   > 5.05 seconds  > 98.10 %
+   > 6.01 seconds  > 90.50 %
