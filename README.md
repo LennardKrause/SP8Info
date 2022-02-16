@@ -54,7 +54,7 @@ stay within the linear response region of the detector
    modelling the peak flux
  - Exposure time [s] > Duty cycle
    - 1.00 -> 99.91 %
-   - 3.50 -> 99.81 %
-   - 4.10 -> 99.05 %
-   - 5.05 -> 98.10 %
-   - 6.01 -> 90.50 %
+   - 0.50 -> 99.81 %
+   - 0.10 -> 99.05 %
+   - 0.05 -> 98.10 %
+   - 0.01 -> 90.50 %
